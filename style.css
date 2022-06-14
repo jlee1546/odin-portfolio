@@ -99,16 +99,44 @@ header a {
 
 .info_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding-bottom: 128px;
 }
 
 .info_container img {
   width: 150px;
+  height: 150px;
 
   border: 2px solid #3882f6;
   border-radius: 10px;
 }
 
 .info {
-  width: 200px;
+  width: 10%;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.three {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure {
+  margin-right: 0;
+  padding: 68px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+figcaption {
+  text-align: right;
+  color: #1f2937;
 }
