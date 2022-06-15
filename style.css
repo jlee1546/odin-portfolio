@@ -16,18 +16,20 @@ header {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+  margin-left: 24px;
 }
 
 header ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 0 48px;
 }
 
 header li {
+  margin: 0 16px;
   padding: 0 16px;
 }
 
@@ -87,9 +89,9 @@ header a {
 .placeholder {
   font-size: 18px;
   color: #e5e7eb;
-  height: 300px;
-  width: 600px;
-  background-color: #7e7d7d;
+  height: 200px;
+  width: 500px;
+  background-color: #646c72;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,20 +138,21 @@ header a {
 }
 
 figure {
-  margin-right: 0;
-  padding: 68px;
+  padding: 96px;
+  width: 65%;
 }
 
 blockquote {
   font-size: 36px;
   font-style: italic;
-  color: #1f2937;
+  color: hsla(215, 28%, 17%, 0.425);
   font-weight: lighter;
 }
 
 figcaption {
   text-align: right;
   color: #1f2937;
+  font-weight: bold;
 }
 
 .four {
