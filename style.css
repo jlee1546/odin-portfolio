@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -67,10 +68,20 @@ header a {
   font-size: 18px;
 }
 
+.signupBtn:hover {
+  cursor: pointer;
+  background-color: #2c63bb;
+}
+
+.signupBtn:active {
+  transform: scale(0.98);
+}
+
 #btnone {
   padding: 8px 24px;
   border-radius: 10px;
   margin-top: 16px;
+  border: none;
 }
 
 .placeholder {
@@ -139,4 +150,54 @@ blockquote {
 figcaption {
   text-align: right;
   color: #1f2937;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  padding: 100px;
+  width: 65%;
+}
+
+.cta_content {
+  background-color: #3882f6;
+  padding: 64px 128px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: ;
+}
+
+.content div:first-child {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content div:nth-child(2) {
+  font-size: 16px;
+}
+
+#btntwo {
+  padding: 0 32px;
+  border: 3px solid #f9faf8;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
 }
